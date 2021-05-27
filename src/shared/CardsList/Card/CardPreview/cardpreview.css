@@ -1,0 +1,13 @@
+.preview {
+width: 320px;
+height: 178px;
+background: url(https://cdn.dribbble.com/users/518045/screenshots/15734941/media/b33ba442df5f77254544702fd5163387.png?compress=1&resize=320x178);
+}
+
+@media all and (min-width: 1024px) {
+    .preview {
+        width: 500px;
+        height: 500px;
+        background: url(https://cdn.dribbble.com/users/518045/screenshots/15734941/media/b33ba442df5f77254544702fd5163387.png);
+}
+}
