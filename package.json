@@ -12,17 +12,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/react": "^17.0.0",
+    "bootstrap": "^5.0.1",
     "express": "^4.17.1",
     "less": "^4.0.0",
     "less-loader": "^7.2.1",
     "nodemon": "^2.0.6",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-bootstrap": "^1.6.0",
+    "react-dom": "^17.0.1",
+    "react-ts-component-lib": "^1.0.25"
   },
   "devDependencies": {
     "@hot-loader/react-dom": "16.13.0",
     "@types/jest": "^26.0.19",
+    "@types/react": "^17.0.7",
+    "@types/react-dom": "^17.0.5",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "3.4.2",
     "html-webpack-plugin": "5.0.0-alpha.9",
