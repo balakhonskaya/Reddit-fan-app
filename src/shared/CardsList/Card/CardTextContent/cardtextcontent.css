@@ -4,17 +4,19 @@
   font-family: Roboto;
   font-weight: 400;  
   margin: 0;
-  padding: 7px 0 0;
+  padding: 0 20px 13px 20px;
 }
 
 .avatar {
   border-radius: 100px;
   width: 20px;
   height: 20px;
+  margin: 0 7px 0 0;
 }
 
 .createdAt {
   color: var(--gray99);
+  padding: 7px 5px 3px 3px;
 }
 
 .postLink {
@@ -28,3 +30,62 @@
         font-size: 20px;
     }
 }
+
+.user {
+  color: var(--orange) !important;
+  padding: 7px 5px 3px 3px;
+}
+
+.userLink {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.metaData {
+  padding: 22px 20px 13px 20px;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.textContent :nth-child(1) { order: 1; }
+.textContent :nth-child(2) { order: 2; }
+
+.userLink :nth-child(1) { order: 2; }
+.userLink :nth-child(2) { order: 1; }
+.userLink :nth-child(3) { order: 3; }
+
+@media all and (min-width: 1024px) {
+  .textContent {
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  }
+
+  .metaData {
+    padding: 0;
+  }
+
+  .userLink {
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+  }
+
+  .textContent :nth-child(1) { order: 2; }
+.textContent :nth-child(2) { order: 1; }
+
+.userLink :nth-child(1) { order: 3; }
+.userLink :nth-child(2) { order: 2; }
+.userLink :nth-child(3) { order: 1; }
+
+}
+

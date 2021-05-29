@@ -6,12 +6,12 @@ export function CardTextContent() {
     <div className={styles.textContent}>
       <div className={styles.metaData}>
         <div className={styles.userLink}>
-        
+
+          <a href="#user_link" className={styles.user}>Дмитрий Петров</a>
           <img className={styles.avatar}
-          src="https://cdn.dribbble.com/users/12363/screenshots/15553002/media/e184b167c6d0f8bf977ae623f006b0ad.png?compress=1&resize=50x50"
+          src="https://www.edarling.ru/wp-content/uploads/sites/31/2019/08/idealnyi_muzhchina_0.jpg"
           alt="avatar"
           />
-          <a href="#user_link">Дмитрий Петров</a>
           <span className={styles.createdAt}>4 часа назад</span>
         </div>
       </div>

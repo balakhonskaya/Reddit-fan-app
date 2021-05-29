@@ -14,6 +14,7 @@ card > * {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .cardTop :nth-child(1) { order: 2; }
@@ -26,10 +27,15 @@ card > * {
         flex-flow: nowrap;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
     .card :nth-child(1) { order: 2; }
     .card :nth-child(2) { order: 1; }
     .card :nth-child(3) { order: 3; }
+
+    .cardTop {
+        align-items: center;
+    }
 
 
 }
