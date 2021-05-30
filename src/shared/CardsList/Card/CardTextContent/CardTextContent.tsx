@@ -16,7 +16,7 @@ export function CardTextContent() {
         </div>
       </div>
       <h2 className={styles.title}>
-        <a href="#content_url" className={styles.postLinks}>Противиположная точка зрения на данную проблему
+        <a href="#content_url" className={styles.postLinks}>Противиположная точка зрения на данную проблему будет изучена
         </a>
       </h2>
       

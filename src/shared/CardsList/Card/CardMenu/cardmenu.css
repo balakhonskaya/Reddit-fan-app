@@ -1,6 +1,7 @@
 .menu {
     top: 17px;
     right: 15px;
+    margin-right: 20px;
 }
 
 .menuButton {
@@ -22,5 +23,8 @@
 @media all and (min-width: 1024px) {
     .menuButton {
         transform: rotate(180deg);
+    }
+    .menu {
+        margin: 0 0 0 100px;
     }
 }
