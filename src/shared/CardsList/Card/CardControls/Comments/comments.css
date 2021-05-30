@@ -1,0 +1,19 @@
+
+.comments{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.commentsButton * {
+    color: var(--grayC4);
+    margin: 6px 0 0 0;
+    padding: 0;
+}
+
+.commentsNumber {
+    padding: 0 0 0 6px;
+    color: var(--grayC4);
+    font-size: 12px;
+    line-height: 14px;
+}
